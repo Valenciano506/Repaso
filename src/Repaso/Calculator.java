@@ -1,0 +1,25 @@
+package Repaso;
+
+/*
+ *
+ * @author Valenciano
+ * 18 may 2026
+ */
+public class Calculator {
+	
+	public final double PI = 3.14;
+	
+	public static float modulus(float num1, int num2) {
+		return num1 % num2;
+	}
+
+	public static int sum(int num1, int num2) {
+		return num1 + num2;
+	}
+	
+	public static double division(double num1, double num2) {
+		return num1 / num2;
+	}
+
+
+}
