@@ -45,7 +45,16 @@ public class Algorithm1 {
 	private static int conmbinedDigits(int a, int b, int c) {
 		//validation of the inputs
 		//logical operator: or ||, and &&, not !
-		if(a > 9 || a < 0 || b > 9 || b < 0 || c > 9 || c < 0) {
+//		if(a > 9 || a < 0 || b > 9 || b < 0 || c > 9 || c < 0) {
+//			System.out.println("Número no válido");
+//			//Throw new InvalidArgsException();
+//			return 0;
+//		}
+//		
+		//if a is less than 10 and greater than 0 ....
+		if(!(a <= 9 && a > 0 && b <= 9 && b >= 0 && c <= 9 && c >= 0)) {
+			//if all the conditions are meet
+			//if one of the conditions is satisfied
 			System.out.println("Número no válido");
 			//Throw new InvalidArgsException();
 			return 0;
