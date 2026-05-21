@@ -20,13 +20,12 @@ public class VariableTest {
 		result2 = Calculator.division(num1, num2);
 		System.out.println(result2);
 		System.out.println(Calculator.modulus(3.2f, 2));
-		boolean stop = false;
-		String color = "Green";
-		if(color == "Green") {
-			stop = false;
-		}
-		System.out.println(stop);
+		
 		// reference variables
+		
+		//polymorphism
+		Object obj = new Object();
+		Calculator cal = new Calculator();
 		
 	}
 	
